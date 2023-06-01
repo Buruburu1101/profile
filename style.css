@@ -1,0 +1,92 @@
+body{
+  background-color:antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  color: green;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2{
+  color:green;
+  font-size: 25px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a{
+  color:black;
+}
+
+a:hover {
+  color:blue;
+}
+
+img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.list-inline li {
+  margin:0 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+p {
+  display:inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.list-inline i {
+  font-size: 45px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
