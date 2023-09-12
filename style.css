@@ -1,6 +1,8 @@
-body{
-  background-color:antiquewhite;
-  font-family: 'Times New Roman', Times, serif;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital@1&display=swap')
+
+body {
+  background-color: antiquewhite;
+  font-family: 'Lobster', cursive;
 }
 
 h1{
@@ -86,7 +88,22 @@ p {
 }
 
 @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
   }
 }
